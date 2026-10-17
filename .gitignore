@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Datasets and large model checkpoints
+data/
+datasets/
+checkpoints/
+*.pth
+*.pt
+*.h5
+
+# IDEs
+.vscode/
+.idea/

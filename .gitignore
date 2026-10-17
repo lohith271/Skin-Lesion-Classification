@@ -8,13 +8,17 @@ venv/
 .venv/
 env/
 
-# Datasets and large model checkpoints
+# Datasets (not committed)
 data/
 datasets/
-checkpoints/
+
+# Checkpoint model weights
+results/ckpt/*
+!results/ckpt/.gitkeep
 *.pth
 *.pt
 *.h5
+*.ckpt
 
 # IDEs
 .vscode/
